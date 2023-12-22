@@ -13,3 +13,14 @@ We present Parameter-Efficient Sparsity Crafting to help dense models learn know
 - [ ] Support [Yi](https://huggingface.co/01-ai) series and [Qwen](https://huggingface.co/Qwen) series.
 - [ ] Release the evaluation results of LLaMA 2 7B and LLaMA 2 13B.
 - [ ] Release the checkpoint and training data.
+
+## Citation
+
+```bibtex
+@misc{2023autogpt,
+title={Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts},
+author={PESC Team},
+howpublished = {\url{https://github.com/wuhy68/Parameter-Efficient-MoE}},
+year={2023}
+}
+```
