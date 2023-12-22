@@ -17,9 +17,9 @@ We present Parameter-Efficient Sparsity Crafting to help dense models learn know
 ## Citation
 
 ```bibtex
-@misc{2023autogpt,
+@misc{2023pesc,
     title={Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts},
-    author={PESC Team},
+    author={pesc Team},
     howpublished = {\url{https://github.com/wuhy68/Parameter-Efficient-MoE}},
     year={2023}
 }
