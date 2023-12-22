@@ -25,3 +25,6 @@ The repo supports the training of dense model using LLaMA architecture ([LLaMA 2
     year={2023}
 }
 ```
+
+## License
+[Apache 2.0 License](https://github.com/wuhy68/Parameter-Efficient-MoE/blob/master/LICENSE).
