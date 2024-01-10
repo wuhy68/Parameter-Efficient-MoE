@@ -10,7 +10,8 @@
 <hr>
 
 ## News
-- 1/4/2024 - Released the [paper](https://arxiv.org/abs/2401.02731)
+- 1/10/2024 - Released the [Camelidae](https://huggingface.co/hywu) models.
+- 1/4/2024 - Released the [paper](https://arxiv.org/abs/2401.02731).
 - 12/22/2023 - Released the training codes to craft the dense model with LLaMA architecture to the MoE model.
 
 ## Introduction
