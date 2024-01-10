@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg">
 </a>
 
-<hr>
-
 ## News
 - 1/10/2024 - Released the [Camelidae](https://huggingface.co/hywu) models.
 - 1/4/2024 - Released the [paper](https://arxiv.org/abs/2401.02731).
