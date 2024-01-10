@@ -27,7 +27,7 @@ Camelidae-8x13B  | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x13B
 Camelidae-8x34B  | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B) 
 
 ## Performance
-| Model | MMLU(5shot) | GSM8k(5shot) | MATH (4shot) | HumanEval(0shot) | MBPP(4shot) | HellaSwag(10shot) | TriviaQA(0shot) |
+| Model | MMLU (5shot) | GSM8k (5shot) | MATH (4shot) | HumanEval (0shot) | MBPP (4shot) | HellaSwag (10shot) | TriviaQA (0shot) |
 |----------------------:|:------------:|:-------------:|:------------:|:-----------------:|:------------:|:------------------:|:----------------:|
 | GPT3.5 | 70.0% | 57.1% | 34.1% | 48.1% | - | 85.5 | - |
 | Camelidae-8x34B | 75.6% | 78.3% | 22.6% | 43.9% | 41.4% | 85.3% | 63.4% |
