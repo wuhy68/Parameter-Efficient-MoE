@@ -35,9 +35,9 @@ Camelidae-8x34B  | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B
 | Mixtral-8x7B-instruct | 68.7% | 71.7% | 22.1% | 25.6% | 40.6% | **86.5%** | 57.7% |
 | LLaMA2-70B-chat | 63.8% | 59.3% | 10.4% | 32.3% | 35.6% | 84.8% | 63.0% |
 | Camelidae-8x13B | 54.4% | 52.6% | 9.8% | 30.6% | 30.4% | 82.5% | 59.4% |
-| LLaMA2-13B-chat | 54.6% | 37.1% | 5.2% | 18.9% | 27.2% | 81.9% | 55.0% |
+| LLaMA2-13B-chat | 53.9% | 37.1% | 5.2% | 18.9% | 27.2% | 81.9% | 55.0% |
 | Camelidae-8x7B | 48.3% | 44.0% | 5.8% | 18.3% | 23.4% | 79.2% | 51.0% |
-| LLaMA2-7B-chat | 48.3% | 26.3% | 3.9% | 12.2% | 17.6% | 78.6% | 46.4% |
+| LLaMA2-7B-chat | 47.2% | 26.3% | 3.9% | 12.2% | 17.6% | 78.6% | 46.4% |
 
 We bold the highest scores for open-source models and all models separately.
 
