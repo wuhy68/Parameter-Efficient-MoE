@@ -54,10 +54,11 @@ tokenizer = AutoTokenizer.from_pretrained("hywu/Camelidae-8x34B", trust_remote_c
 # model = AutoModelForCausalLM.from_pretrained("hywu/Camelidae-8x13B", device_map="auto", trust_remote_code=True).eval()
 model = AutoModelForCausalLM.from_pretrained("hywu/Camelidae-8x34B", device_map="auto", trust_remote_code=True).eval()
 
-inputs = tokenizer('### Human:\nHow are you?\n ### Assistant:\n', return_tensors='pt')
+inputs = tokenizer('### Human:\nHow are you?\n### Assistant:\n', return_tensors='pt')
 inputs = inputs.to(model.device)
 pred = model.generate(**inputs)
 print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
+# I am doing well, thank you.
 ```
 
 ## Citation
