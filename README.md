@@ -18,7 +18,7 @@ We present Parameter-Efficient Sparsity Crafting to help dense models learn know
 
 Parameter-Efficient Sparsity Crafting utilizes parameter efficient techiniques including [QLoRA](https://arxiv.org/abs/2305.14314) and [Adapter](https://arxiv.org/abs/1902.00751) to perfrom Efficient [Sparse Upcycling](https://arxiv.org/abs/2212.05055).
 
-The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/2307.09288), [Yi](https://huggingface.co/01-ai), etc.)
+The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/2307.09288), [Yi](https://huggingface.co/01-ai), etc.).
 
 ## Model Lists
 | Camelidae Series | Download  
@@ -36,7 +36,7 @@ Qwen2idae-16x1.8B-v1.0   | 🤗 Coming Soon
 
 
 ## Performance
-| Model | Activated Params | MMLU (5shot) | GSM8k (5shot) | MATH (4shot) | HumanEval (0shot) | MBPP (4shot) | HellaSwag (10shot) | NaturalQuestionsQA (0shot) |
+| Model | Activated Params | MMLU (5shot) | GSM8k (5shot) | MATH (4shot) | HumanEval (0shot) | MBPP (4shot) | HellaSwag (10shot) | NQ (0shot) |
 |:-----:|:----------------:|:------------:|:-------------:|:------------:|:-----------------:|:------------:|:------------------:|:--------------------------:|
 | GPT3.5 | - | 70.0% | 57.1% | <font color=#F67F70>**34.1%**</font> | <font color=#FBD98D>**48.1%**</font> | - | <font color=#7FEA9E>**85.5%**</font> | - |
 | LLaMA2-70B-chat | 70B | 63.8% | 59.3% | 10.4% | 32.3% | 35.6% | 84.8% | <font color=#FBD98D>**30.6%**</font> |
