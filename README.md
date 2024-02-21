@@ -23,9 +23,9 @@ The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/
 ## Model Lists
 | Camelidae Series | Download  
 |---|---
-Camelidae-8x7B   | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x7B)
-Camelidae-8x13B  | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x13B)
-Camelidae-8x34B  | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B) 
+Camelidae-8x7B   | 🤗 [HuggingFace](https://huggingface.co/hywu/Camelidae-8x7B)
+Camelidae-8x13B  | 🤗 [HuggingFace](https://huggingface.co/hywu/Camelidae-8x13B)
+Camelidae-8x34B  | 🤗 [HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B) 
 Camelidae-8x34B-pro  | 🤗 Coming Soon
 
 | Qwen2idae Series | Download  
