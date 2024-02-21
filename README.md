@@ -51,7 +51,7 @@ Qwen2idae-16x1.8B-v1.0   | 🤗 Coming Soon
 | Camelidae-8x7B | 7B | 48.3% | 44.0% | 5.8% | 18.3% | 23.4% | 79.2% | 17.8% |
 | LLaMA2-7B-chat | 7B | 47.2% | 26.3% | 3.9% | 12.2% | 17.6% | 78.6% | 19.6% |
 
-We bold the top3 scores with red, green and yellow colors s separately for all models.
+We bold the top3 scores separately for all models.
 
 
 ## Usage
