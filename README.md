@@ -9,7 +9,7 @@
 
 ## News
 - 2/7/2024 - [Serp-ai](https://github.com/serp-ai/Parameter-Efficient-MoE) adds [unsloth](https://github.com/serp-ai/unsloth) support for faster and memory efficient training of our Parameter-Efficient Sparsity Crafting and releases new [sparsetral](https://huggingface.co/serpdotai/sparsetral-16x7B-v2) models based on mistral-7B.
-- 1/10/2024 - Camelidae models are now available on [🤗HuggingFace](https://huggingface.co/hywu).
+- 1/10/2024 - Camelidae models are now available on [🤗 HuggingFace](https://huggingface.co/hywu).
 - 1/4/2024 - We released the paper, [Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts for Instruction Tuning on General Tasks](https://arxiv.org/abs/2401.02731).
 - 12/22/2023 - We released the training repo that craft the dense model with LLaMA architecture to the MoE model.
 
@@ -23,16 +23,16 @@ The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/
 ## Model Lists
 | Camelidae Series | Download  
 |---|---
-Camelidae-8x7B   | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x7B)
-Camelidae-8x13B  | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x13B)
-Camelidae-8x34B  | [🤗HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B) 
-Camelidae-8x34B-pro  | Coming Soon
+Camelidae-8x7B   | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x7B)
+Camelidae-8x13B  | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x13B)
+Camelidae-8x34B  | [🤗 HuggingFace](https://huggingface.co/hywu/Camelidae-8x34B) 
+Camelidae-8x34B-pro  | 🤗 Coming Soon
 
 | Qwen2idae Series | Download  
 |---|---
-Qwen2idae-16x14B-v1.0   | Coming Soon
-Qwen2idae-16x7B-v1.0   | Coming Soon
-Qwen2idae-16x1.8B-v1.0   | Coming Soon
+Qwen2idae-16x14B-v1.0   | 🤗 Coming Soon
+Qwen2idae-16x7B-v1.0   | 🤗 Coming Soon
+Qwen2idae-16x1.8B-v1.0   | 🤗 Coming Soon
 
 
 ## Performance
