@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg">
 </a>
 
+<img src="./img/Figure1.png">
+
 ## News
 - 2/7/2024 - [Serp-ai](https://github.com/serp-ai/Parameter-Efficient-MoE) adds [unsloth](https://github.com/serp-ai/unsloth) support for faster and memory efficient training of our Parameter-Efficient Sparsity Crafting and releases new [sparsetral](https://huggingface.co/serpdotai/sparsetral-16x7B-v2) models based on mistral-7B.
 - 1/10/2024 - Camelidae models are now available on 🤗 [HuggingFace](https://huggingface.co/hywu).
@@ -36,20 +38,20 @@ Qwen2idae-16x1.8B-v1.0   | 🤗 Coming Soon
 
 
 ## Performance
-| Model | Activated Params | MMLU (5shot) | GSM8k (5shot) | MATH (4shot) | HumanEval (0shot) | MBPP (4shot) | HellaSwag (10shot) | NQ (0shot) |
-|:-----:|:----------------:|:------------:|:-------------:|:------------:|:-----------------:|:------------:|:------------------:|:--------------------------:|
-| GPT3.5 | - | 70.0% | 57.1% | <font color=#F67F70>**34.1%**</font> | <font color=#FBD98D>**48.1%**</font> | - | <font color=#7FEA9E>**85.5%**</font> | - |
-| LLaMA2-70B-chat | 70B | 63.8% | 59.3% | 10.4% | 32.3% | 35.6% | 84.8% | <font color=#FBD98D>**30.6%**</font> |
-| Camelidae-8x34B-pro | 35B | <font color=#7FEA9E>**75.7%**</font> | <font color=#F67F70>**79.4%**</font> | <font color=#FBD98D>**24.0%**</font> | <font color=#7FEA9E>**48.8%**</font> | <font color=#7FEA9E>**43.2%**</font> | 85.2% | <font color=#7FEA9E>**31.2%**</font> |
-| Camelidae-8x34B | 35B | <font color=#FBD98D>**75.6%**</font> | <font color=#7FEA9E>**78.3%**</font> | 22.6% | 43.9% | <font color=#FBD98D>**41.4%**</font> | <font color=#FBD98D>**85.3%**</font> | <font color=#F67F70>**32.2%**</font> |
-| SUSChat-34B | 34B | <font color=#F67F70>**76.4%**</font> | 72.3% | 22.0% | 11.6% | 40.2% | 83.9% | 20.4% |
-| Yi-34B-chat | 34B | 74.8% | 67.6% | 17.3% | 20.1% | 41.0% | 83.9% | 23.7% |
-| Qwen2idae-16x14B-v1.0 | 15B | 66.7% | <font color=#FBD98D>**77.8%**</font> | <font color=#7FEA9E>**29.9%**</font> | <font color=#F67F70>**62.8%**</font> | <font color=#F67F70>**48.6%**</font> | 82.3% | 14.9% |
-| Mixtral-8x7B-instruct | 14B | 68.7% | 71.7% | 22.1% | 25.6% | 40.6% | <font color=#F67F70>**86.5%**</font> | 22.5% |
-| Camelidae-8x13B | 13B | 54.4% | 52.6% | 9.8% | 30.6% | 30.4% | 82.5% | 26.8% |
-| LLaMA2-13B-chat | 13B | 53.9% | 37.1% | 5.2% | 18.9% | 27.2% | 81.9% | 25.0% |
-| Camelidae-8x7B | 7B | 48.3% | 44.0% | 5.8% | 18.3% | 23.4% | 79.2% | 17.8% |
-| LLaMA2-7B-chat | 7B | 47.2% | 26.3% | 3.9% | 12.2% | 17.6% | 78.6% | 19.6% |
+| Model | Activated Params | MMLU (5shot) | GSM8k (5shot) | MATH (4shot) | HumanEval (0shot) | MBPP (4shot) | HellaSwag (10shot) |
+|:-----:|:----------------:|:------------:|:-------------:|:------------:|:-----------------:|:------------:|:------------------:|
+| GPT3.5 | - | 70.0% | 57.1% | <font color=#F67F70>**34.1%**</font> | <font color=#FBD98D>**48.1%**</font> | - | <font color=#7FEA9E>**85.5%**</font> |
+| LLaMA2-70B-chat | 70B | 63.8% | 59.3% | 10.4% | 32.3% | 35.6% | 84.8% |
+| Camelidae-8x34B-pro | 35B | <font color=#7FEA9E>**75.7%**</font> | <font color=#F67F70>**79.4%**</font> | <font color=#FBD98D>**24.0%**</font> | <font color=#7FEA9E>**48.8%**</font> | <font color=#7FEA9E>**43.2%**</font> | 85.2% |
+| Camelidae-8x34B | 35B | <font color=#FBD98D>**75.6%**</font> | <font color=#7FEA9E>**78.3%**</font> | 22.6% | 43.9% | <font color=#FBD98D>**41.4%**</font> | <font color=#FBD98D>**85.3%**</font> |
+| SUSChat-34B | 34B | <font color=#F67F70>**76.4%**</font> | 72.3% | 22.0% | 11.6% | 40.2% | 83.9% |
+| Yi-34B-chat | 34B | 74.8% | 67.6% | 17.3% | 20.1% | 41.0% | 83.9% |
+| Qwen2idae-16x14B-v1.0 | 15B | 66.7% | <font color=#FBD98D>**77.8%**</font> | <font color=#7FEA9E>**29.9%**</font> | <font color=#F67F70>**62.8%**</font> | <font color=#F67F70>**48.6%**</font> | 82.3% |
+| Mixtral-8x7B-instruct | 14B | 68.7% | 71.7% | 22.1% | 25.6% | 40.6% | <font color=#F67F70>**86.5%**</font> |
+| Camelidae-8x13B | 13B | 54.4% | 52.6% | 9.8% | 30.6% | 30.4% | 82.5% |
+| LLaMA2-13B-chat | 13B | 53.9% | 37.1% | 5.2% | 18.9% | 27.2% | 81.9% |
+| Camelidae-8x7B | 7B | 48.3% | 44.0% | 5.8% | 18.3% | 23.4% | 79.2% |
+| LLaMA2-7B-chat | 7B | 47.2% | 26.3% | 3.9% | 12.2% | 17.6% | 78.6% |
 
 We bold the top3 scores separately for all models.
 
