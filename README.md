@@ -20,7 +20,7 @@ We present Parameter-Efficient Sparsity Crafting to help dense models learn know
 
 Parameter-Efficient Sparsity Crafting utilizes parameter efficient techiniques including [QLoRA](https://arxiv.org/abs/2305.14314) and [Adapter](https://arxiv.org/abs/1902.00751) to perfrom Efficient [Sparse Upcycling](https://arxiv.org/abs/2212.05055).
 
-The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/2307.09288), [Yi](https://huggingface.co/01-ai), etc.).
+The repo supports the training of dense models ([LLaMA 2](https://arxiv.org/abs/2307.09288), [Yi](https://huggingface.co/01-ai), [Qwen1.5](https://github.com/QwenLM/Qwen1.5), etc.).
 
 ## Model Lists
 | Camelidae Series | Download  
@@ -32,7 +32,7 @@ Camelidae-8x34B-pro  | 🤗 Coming Soon
 
 | Qwen2idae Series | Download  
 |---|---
-Qwen2idae-16x14B-v1.0   | 🤗 Coming Soon
+Qwen2idae-16x14B-v1.0   | 🤗 [HuggingFace](https://huggingface.co/hywu/Qwen2idae-16x14B-v1.0)
 Qwen2idae-16x7B-v1.0   | 🤗 Coming Soon
 Qwen2idae-16x1.8B-v1.0   | 🤗 Coming Soon
 
@@ -57,22 +57,32 @@ We bold the top3 scores separately for all models.
 
 
 ## Usage
+
+### Camelidae
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# tokenizer = AutoTokenizer.from_pretrained("hywu/Camelidae-8x7B", trust_remote_code=True)
-# tokenizer = AutoTokenizer.from_pretrained("hywu/Camelidae-8x13B", trust_remote_code=True)
 tokenizer = AutoTokenizer.from_pretrained("hywu/Camelidae-8x34B", trust_remote_code=True)
 
-# model = AutoModelForCausalLM.from_pretrained("hywu/Camelidae-8x7B", device_map="auto", trust_remote_code=True).eval()
-# model = AutoModelForCausalLM.from_pretrained("hywu/Camelidae-8x13B", device_map="auto", trust_remote_code=True).eval()
 model = AutoModelForCausalLM.from_pretrained("hywu/Camelidae-8x34B", device_map="auto", trust_remote_code=True).eval()
 
 inputs = tokenizer('### Human:\nHow are you?\n### Assistant:\n', return_tensors='pt')
 inputs = inputs.to(model.device)
 pred = model.generate(**inputs)
 print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
-# I am doing well, thank you.
+```
+
+### Qwen2idae
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("hywu/Qwen2idae-16x14B-v1.0", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("hywu/Qwen2idae-16x14B-v1.0", device_map="auto", trust_remote_code=True).eval()
+
+inputs = tokenizer('<|im_start|>user\nHow are you?<|im_end|>\n<|im_start|>assistant\n', return_tensors='pt')
+inputs = inputs.to(model.device)
+pred = model.generate(**inputs)
+print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
 ```
 
 ## Citation
@@ -86,4 +96,4 @@ print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
 ```
 
 ## License
-The source code in this repo is licensed under the [Apache 2.0 License](https://github.com/wuhy68/Parameter-Efficient-MoE/blob/master/LICENSE). Camelidae models are developed for academic research and free commercial use, all usage must adhere to the license from [facebookresearch](https://github.com/facebookresearch/llama/blob/main/LICENSE) and [01-ai](https://github.com/01-ai/Yi/blob/main/MODEL_LICENSE_AGREEMENT.txt).
+The source code in this repo is licensed under the [Apache 2.0 License](https://github.com/wuhy68/Parameter-Efficient-MoE/blob/master/LICENSE). Camelidae and Qwen2idae models are developed for academic research and free commercial use, all usage must adhere to the license from [facebookresearch](https://github.com/facebookresearch/llama/blob/main/LICENSE), [01-ai](https://github.com/01-ai/Yi/blob/main/MODEL_LICENSE_AGREEMENT.txt) and [Qwen1.5](https://huggingface.co/Qwen/Qwen1.5-14B/blob/main/LICENSE).
