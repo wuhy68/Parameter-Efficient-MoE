@@ -10,7 +10,7 @@
 <img src="./img/Figure1.png">
 
 ## News
-- 3/12/2024 - We released Qwen2idae-16x14B-v1.0 on [🤗HuggingFace](https://huggingface.co/hywu/Qwen2idae-16x14B-v1.0), which has strong performance in Math and Code with 15B activated params.
+- 3/12/2024 - We released Qwen2idae-16x14B-v1.0 on 🤗 [HuggingFace](https://huggingface.co/hywu/Qwen2idae-16x14B-v1.0), which has strong performance in Math and Code with 15B activated params.
 - 2/7/2024 - [Serp-ai](https://github.com/serp-ai/Parameter-Efficient-MoE) adds [unsloth](https://github.com/serp-ai/unsloth) support for faster and memory efficient training of our Parameter-Efficient Sparsity Crafting and releases new [sparsetral](https://huggingface.co/serpdotai/sparsetral-16x7B-v2) models based on mistral-7B.
 - 1/10/2024 - Camelidae models are now available on 🤗 [HuggingFace](https://huggingface.co/hywu).
 - 1/4/2024 - We released the paper, [Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts for Instruction Tuning on General Tasks](https://arxiv.org/abs/2401.02731).
