@@ -1,4 +1,4 @@
-# Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts for Instruction Tuning on General Tasks (EMNLP24)
+# Parameter-Efficient Sparsity Crafting From Dense to Mixture-of-Experts for Instruction Tuning on General Tasks (EMNLP'24)
 
 <a href="https://github.com/wuhy68/Parameter-Efficient-MoE/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/Code_License-Apache_2.0-lightblue">
@@ -10,7 +10,7 @@
 <img src="./img/Figure1.png">
 
 ## News
-- 9/20/2024 - Our paper is accepted by EMNLP24.
+- 9/20/2024 - Our paper is accepted by EMNLP'24.
 - 3/12/2024 - We release Qwen2idae-16x14B-v1.0 on 🤗 [HuggingFace](https://huggingface.co/hywu/Qwen2idae-16x14B-v1.0), which has strong performance in Math and Code with 15B activated params.
 - 2/7/2024 - [Serp-ai](https://github.com/serp-ai/Parameter-Efficient-MoE) adds [unsloth](https://github.com/serp-ai/unsloth) support for faster and memory efficient training of our Parameter-Efficient Sparsity Crafting and releases new [sparsetral](https://huggingface.co/serpdotai/sparsetral-16x7B-v2) models based on mistral-7B.
 - 1/10/2024 - Camelidae models are now available on 🤗 [HuggingFace](https://huggingface.co/hywu).
